@@ -1,0 +1,6 @@
+./public_html/cpsc422a3.pdf
+./public_html/11.pdf
+./public_html/cpsc422_2020w2_a2.pdf
+./public_html/a355.pdf
+./public_html/a355b.pdf
+
