@@ -1,6 +1,8 @@
-./public_html/cpsc422a3.pdf
-./public_html/11.pdf
-./public_html/cpsc422_2020w2_a2.pdf
-./public_html/a355.pdf
-./public_html/a355b.pdf
+find public_html box -name "*.*"
 
+box/Financial_Reporting_and_Analysis_7th_Edition_－_Lawrence_Revsine.pdf
+box/Creativity_Inc.Pixel.pdf
+box/a355.pdf
+box/Corporate Finance For Dummies.pdf
+box/A Random Walk Down Wall Street by Burton G. Malkiel.pdf
+box/a355b.pdf

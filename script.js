@@ -11,10 +11,11 @@
 
 let raw_string = "./public_html/cpsc422a3.pdf./public_html/11.pdf./public_html/cpsc422_2020w2_a2.pdf";
 let public_data = parse(raw_string, "./public_html/")
-let box_data = parse('box/a355.pdf box/a355b.pdf', "box/")
+let box_data = parse('box/Financial_Reporting_and_Analysis_7th_Edition_－_Lawrence_Revsine.pdfbox/Creativity_Inc.Pixel.pdfbox/a355.pdfbox/Corporate Finance For Dummies.pdfbox/A Random Walk Down Wall Street by Burton G. Malkiel.pdfbox/a355b.pdf', "box/")
 // console.log(data.map(x => create_href(x)))
 // console.log(data)
-
+box_data = box_data.sort((a,b)=>{return a.toUpperCase() <= b.toUpperCase()?  -1 : 1 })
+console.log(box_data)
 function generate(){
     make_list("public_files",public_data);
     make_list("box_files", box_data);
